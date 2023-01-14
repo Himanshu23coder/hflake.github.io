@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Design</title>
+    <!-- Font Link Roboto-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Link Sen -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawosome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-conatiner">
+        <div class="logo-container">
+          <h1 class="logo">Hmovie</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trends</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img
+            src="https://i.postimg.cc/XN5bgfSZ/Pink.jpg"
+            class="profile-picture"
+            alt="profile"
+          />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fas fa-moon toggle-icon"></i>
+            <i class="fas fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <i class="left-menu-icon fas fa-search"></i>
+      <i class="left-menu-icon fas fa-home"></i>
+      <i class="left-menu-icon fas fa-users"></i>
+      <i class="left-menu-icon fas fa-bookmark"></i>
+      <i class="left-menu-icon fas fa-tv"></i>
+      <i class="left-menu-icon fas fa-hourglass-start"></i>
+      <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url(./asset/img/f-1.jpg);
+          "
+        >
+          <img
+            src="./asset/img/f-t-1.png"
+            class="featured-title"
+            alt="featured-title"
+          />
+          <p class="featured-desc">
+            Will Smith Turned Down Django Unchained So It Wouldn't Affect His
+            Kids.
+          </p>
+          <button class="featured-button">WATCH</button>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/funny.jpeg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">FUNNY MOVIE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/2.jpeg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">STAR WARS</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/3.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">STROM</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/4.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">1917</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/5.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">CIVIL WAR</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/6.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">RAMPAGE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/7.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SPACE TOUR</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card1.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SPIDER CITY</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card12.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">JOHN WICK</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card3.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">BIRDS PASAGES</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card4.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">ANTMAN RISE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card5.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SUPER X</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/captain-marvel.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">Captain Marvel</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/1917.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SKYFAIL 1917</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/8.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">BELIVE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/9.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">HOBBIT</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/10.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">DUE DATE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/11.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">KICK-ASS 2</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/12.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">EMOJI MOVIE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card6.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">BLACK PANTHER</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card7.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">COCO FUN</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card8.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">MUMMY SRY</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card9.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">BABY DRIVER</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card10.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">IT CH1</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url(./asset/img/f-2.jpg);
+          "
+        >
+          <img
+            src="./asset/img/f-t-2.png"
+            class="featured-title"
+            alt="featured-title"
+          />
+          <p class="featured-desc">
+            The ending of the DARK series shows us that Jonas and Martha
+            successfully stop Marek from using that broken bridge in 1971 in the
+            Origin World. This results in him and his family not dying. Marek
+            goes back to H.G. Tannhaus' home
+          </p>
+          <button class="featured-button">WATCH</button>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/gladiator.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">GLADIATOR</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/LOTR.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">LORD RINGS</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/interstaller.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">INTERSELLEAR</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/matrix.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">MATRIX</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/panther.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">PANTHER 2</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/planet.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">PLANET EARTH</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/red-notice.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">RED NOTICE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card11.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">ALIENS</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card23.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">VOGYE OF TIME</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card13.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">KONG SKULL</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card14.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">TWO</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card15.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">BEAUTY OF BEAST</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/saving-private-ryan.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SAVING RYAN</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/sci-fi.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SCI-FI 1</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/shang-chi.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SHANG-CHI</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/venom.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">VENOM</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/spider-men.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SPIDERMAN RETURN</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/endgame.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">AVENGER ULTRON</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/dark-knight.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">DARK KNIGHT</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card16.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">WAR II</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card17.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">DOCTOR STRAGE</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card18.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">SPACE II</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card19.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">WONDER WOMEN</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="./asset/img/card20.jpg"
+                  alt="item-img"
+                />
+                <span class="movie-list-item-title">GHOSTBUSTERS</span>
+                <p class="movie-list-item-desc">
+                  From Air Force major to first-tier Avenger, Carol Danvers,
+                  codename Captain Marvel, has had an impressive career as a
+                  super heroine.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
